@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  }
+  
+  .form {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+  }
+  button {
+    border: none;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .form input {
+    margin: 5px 0;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  input[type="button"] {
+    border: none;
+    background-color: #fcb69f;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  #eventsContainer {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    border-radius: 5px;
+    padding: 10px;
+    width: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .event {
+    border: solid 1px #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .event .days {
+    text-align: center;
+    width: 100px;
+  }
+  .event .days .days-number {
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+  }
+  .event .event-name {
+    padding: 10px;
+    width: 200px;
+  }
+  .event .event-date {
+    padding: 5px;
+    width: 100px;
+  }
+  .event .actions {
+    padding: 10px;
+  }
